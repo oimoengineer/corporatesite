@@ -1,0 +1,154 @@
+
+/* header */
+.page-header_logo {
+  width: 297px;
+  height: 68px;
+  position: absolute;
+  top: 266px;
+  left: 70px;
+}
+
+.big-bg {
+  height: 400px;
+  background-image: url(../images/bg-main_visual.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* main */
+main .type-bold {
+  text-align: center;
+  font-size: 3.2rem;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+main .type-normal {
+  text-align: center;
+  font-size: 1.6rem;
+  padding-bottom: 100px;
+  line-height: 3.2rem;
+}
+
+/* .main-create */
+.main-create {
+  height: 441px;
+  background: #FFFFF3;
+}
+
+.main-create .type-bold {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+/* main-design */
+.main-design {
+  height: 1512px;
+}
+
+#design {
+  background-image: url(../images/bg-content.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-design_contents-title {
+  font-weight: bold;
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.main-design_contents-text {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.main-design_content {
+  display: flex;
+  margin: 0 auto;
+}
+
+.main-design_content:nth-child(2n) {
+  flex-direction: row-reverse;
+} 
+
+.main-design_img {
+  width: 430px;
+  height: 280px;
+  /* margin-right: 40px; */
+}
+
+.main-design_container{
+  background: #FFFFF3;
+  padding: 0 20px 0;
+}
+
+.main-design .type-bold {
+  color: #FFF;
+}
+
+.main-design_wrap {
+  width: 960px;
+  height: 1220px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto; 
+}
+
+.main-design_list {
+  width: 860px;
+  height: 1120px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* main-corporate */
+.main-corporate {
+  height: 565px;
+}
+
+.main-corporate .type-bold {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.main-corporate .type-normal {
+  padding-bottom: 60px;
+}
+
+.main-corporate_logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 300px 100px;
+}
+
+/* フッター */
+footer {
+  background: #000;
+  height: 60px;
+  display: flex;
+  position: relative;
+}
+
+footer a,
+footer p {
+  color: #FFF;
+}
+
+footer p {
+  position: absolute;
+  top: 42%;
+  left: 47%;
+}
+
+.footer-link {
+  margin-left: auto;
+  padding-right: 300px;
+  padding-top: 20px;
+}
+
+.footer-link .policy {
+  margin-left: 10px;
+}
